@@ -2,7 +2,7 @@ name : TestWorkflow
 on : 
     workflow_dispatch
 jobs:
-  first job:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
